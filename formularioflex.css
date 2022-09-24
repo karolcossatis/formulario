@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 10px;
+    margin-top: 0px;
+    text-align:start;
+    background-color: blueviolet;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+header a:hover {
+    background-color: rgb(26, 8, 43);
+    color: blueviolet;
+}
+
+ h1 {
+    text-transform: uppercase;
+    padding: 30px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+h4 {
+    text-transform: uppercase;
+}
+body {
+    width: 100vw;    
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+main {
+    width: 90vw;
+    margin: 30px;
+    background-color:rgba(232, 227, 252, 0.301);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 20px 20px rgb(125, 68, 158);
+    
+}
+
+fieldset {
+   /* background-color: violet;*/
+   border: none;
+}
+
+h3 {
+    text-transform: uppercase;
+    margin: 20px 0 0 10px;
+    font-size: 1.0rem;
+}
+
+h3::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 1.5px;
+    background-color: blueviolet;
+    position: relative;
+}
+
+.inputinho {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+#inputscampo1, #inputscampo2, #inputscampo3 ,#inputscampo4, #inputscampo5 {
+    margin: 10px;
+    padding: 15px;
+   /* border: solid 1px red; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+
+
+#boxenvio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+button {
+    padding: 20px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    color: aliceblue;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: rgb(153, 52, 248);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(25, 7, 43);
+    box-shadow: 0 10px 20px 10px rgba(102, 51, 153, 0.658);
+}
+
+
+
+footer {
+    text-align: center;
+    color: aliceblue;
+    padding: 30px;
+    margin-top: 30px;
+    width: 100%;
+    background-color: blueviolet;
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formularioflex.css">
+    <title>Formulario Flexbox</title>
+</head>
+
+
+<body>
+    
+    <header>
+        <a href=''><strong> Voltar </strong></a>
+   
+    </header>
+    <h1>cadastre-se</h1>
+    <main>
+        <form class="boxform">
+           
+
+            <fieldset id="campo1">
+                <h3>Dados pessoais</h3>
+                <div id="inputscampo1">
+
+                    <div class="inputinho">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="inputinho">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu sobrenome" required>
+                    </div>
+
+                    <div class="inputinho">
+                    <label for="idade">Idade</label>
+                    <input type="number" name="" id="" placeholder="Digite sua idade" required>
+                    </div>
+
+                    <div class="inputinho">
+                    <label for="tel">Nome</label>
+                    <input type="number" name="" id="" placeholder="(xx)xxxx-xxxx" required>
+                    </div>
+
+                </div>
+
+            </fieldset>
+
+            <fieldset id="campo2">
+                <h3>Informações gerais</h3>
+                <div id="inputscampo2">
+
+                    <div class="inputinho">
+                    <label for="nome">Cidade</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite sua cidade" >
+                    </div>
+
+                    <div class="inputinho">
+                    <label for="nome">UF</label>
+                    <input type="text" name="nome" id="nome" placeholder="UF" >
+                    </div>
+
+                    <div class="inputinho">
+                    <label for="moradia">Tipo de moradia</label>
+                    <select id="moradia">
+                    <option selected desable>Selecione </option>
+                    <option>Casa</option>
+                    <option>apartamento</option>
+                    
+                    </select>
+                    </div>
+
+                    <div class="inputinho">
+                    <label for="nome">Ponto de referência</label>
+                    <textarea  row="6" style="width: 26em" id="experiencia" name="experiencia"></textarea >
+                    </div>
+
+                </div>
+
+                
+
+            </fieldset>
+            <fieldset id="campo3">
+
+                <h3>Cor de Cabelo</h3>
+
+                <div id="inputscampo3">
+
+                    <div>
+                        <input  type="radio" id="loiro" name="Caracteristica" checked>
+                        <label for="loiro">Loiro</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="loiroescuro" name="Caracteristica">
+                        <label for="loiroescuro">Loiro escuro</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="castanho " name="Caracteristica">
+                        <label for="castanho">Castanho</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="preto" name="Caracteristica">
+                        <label for="preto">Preto</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="ruivo" name="Caracteristica">
+                        <label for="ruivo">Ruivo</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Grisalho" name="Caracteristica">
+                        <label for="grisalho">Grisalho</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="colorido" name="Caracteristica">
+                        <label for="colorido">Colorido</label>
+                    </div>
+
+
+                </div>
+
+
+
+            </fieldset>
+            <fieldset id="campo4">
+                <h3>Características</h3>
+                <div id="inputscampo4">
+
+                    <div class="selecao">
+                        <label for="comprimento"><strong>Comprimento</strong></label>
+                        <select id="comprimento">
+                            <option selected disabled value="">Selecione</option>
+                            <option>Curtissímo</option>
+                            <option>Curto</option>
+                            <option>Médio</option>
+                            <option>Longo</option>
+                            <option>Extra-longo</option>
+                        </select>
+                    </div>
+                    <div class="selecao">
+                        <label for="tipo"><strong>Tipo</strong></label>
+                        <select id="tipo">
+                            <option selected disabled value="">Selecione</option>
+                            <option>Liso</option>
+                            <option>Ondulado</option>
+                            <option>Cacheado</option>
+                            <option>Crespo</option>                    
+                        </select>
+                    </div>
+                    <div class="selecao">
+                        <label for="textura"><strong>Textura</strong></label>
+                        <select id="textura">
+                            <option selected disabled value="">Selecione</option>
+                            <option>Poroso</option>
+                            <option>Ponta dupla</option>
+                            <option>Quebradiço</option>
+                            <option>Hidratado</option>
+                        </select>
+                    </div>
+
+                </div>
+            </fieldset>
+
+            <fieldset id="campo5" >
+              <h3>Selecione os produtos que utiliza</h3>
+                <div id="inputscampo5">
+                    
+                    <div>
+                    <input type="checkbox" id="produto1" name="produto1" value="shampoo">
+                    <label for="produto1">Shampoo </label>
+                    </div>
+
+                    <div>
+                    <input type="checkbox" id="produto2" name="produto2" value="condicionador">
+                    <label for="produto2">Condicionador </label>
+                    </div>
+
+                    <div>
+                    <input type="checkbox" id="produto3" name="produto3" value="Leave-in">
+                    <label for="produto3">Leave-in </label>
+                    </div>
+
+                    <div>
+                    <input type="checkbox" id="produto4" name="produto4" value="Cremedepentear">
+                    <label for="produto4">Creme de pentear</label>
+                    </div>
+
+                    <div>
+                    <input type="checkbox" id="produto5" name="produto5" value="oleoreparador">
+                    <label for="produto5">Oleo reparador</label>
+                    </div>
+
+                    <div>
+                    <input type="checkbox" id="produto6" name="produto6" value="Mascara">
+                    <label for="produto6">Mascara de hidratação </label>
+                    </div>
+
+                    <div>
+                    <input type="checkbox" id="produto7" name="produto7" value="shampoo">
+                    <label for="produto7">Tonico</label>
+                    </div> 
+    
+                </div>
+            </fieldset>
+
+
+        </form>
+
+      
+    </main>
+    
+    <section id="boxenvio">
+      <!--  <h4>Enviar Informaçoes</h4>-->
+        <button>Enviar</button>
+       
+    </section>
+</body>
+
+<footer>
+    @cadastroonline 
+</footer>
+</html>
